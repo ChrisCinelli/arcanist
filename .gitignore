@@ -1,13 +1,10 @@
-# NOTE: Thinking about adding files created by your operating system, IDE,
-# or text editor here? Don't! Add them to your per-user .gitignore instead.
-
-# Diviner
+.DS_Store
+._*
+/src/.phutil_module_cache
 /docs/
 /.divinercache/
-
-# libphutil
-/src/.phutil_module_cache
-
-# User extensions
 /externals/includes/*
+/nbproject/private/
 /src/extensions/*
+/src/.phutil_module_cache
+f
